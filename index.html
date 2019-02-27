@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>bootstrap-homework-Feb27</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./css/main.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluid w-75">
+      <header class="row justify-content-between m-2">
+        <a class="text-secondary d-flex align-items-center" href="">Subscribe</a>
+        <h1>Large</h1>
+        <div class="row">
+          <a href=""><i class="fas fa-search m-3 text-secondary"></i></a>
+          <button class="btn btn-outline-secondary d-flex align-items-center signButton">Sign Up</button>
+        </div>
+      </header>
+      <!-- navigation part -->
+      <nav class="container-fluid">
+        <ul class="nav nav-tabs h5 text-secondary justify-content-between ">
+          <li class="nav-item mr-1 ">
+            <a class="nav-link active text-secondary" id="world" href="#">World</a>
+          </li>
+          <li class="nav-item mr-1">
+            <a class="nav-link text-secondary" href="#">U.S</a>
+          </li>
+          <li class="nav-item mr-1">
+            <a class="nav-link  text-secondary" href="#">Technology</a>
+          </li>
+          <li class="nav-item mr-1">
+            <a class="nav-link text-secondary" href="#">Design</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Culture</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Business</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Politics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-secondary" href="#">Opinion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Science</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Health</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Style</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Travel</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- main pictures -->
+      <div class="card mainPic text-white m-2">
+        <div class="card-body w-50 font-italic font-weight-bold">
+          <div class="card-title h1 ">
+            Title-of-a longer featured blog post
+          </div>
+          <div class="card-text h4 w-75 mt-5">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
+            sunt amet consequuntur sequi nostrum perspiciatis sit explicabo quo
+            et inventore?
+          </div>
+          <button class="btn btn-info mt-5 text-white font-weight-bold h2">
+            Continue reading...
+          </button>
+        </div>
+      </div>
+
+      <!-- two cards -->
+      <div class="row justify-content-between m-auto">
+        <div class="newCard card mt-2 mx-2">
+          <div class="row no-gutters">
+            <div class="card-body col-md-6  p-3">
+              <a href="#world" class="card-link text-primary">World</a>
+              <div class="card-title h2">Featured post</div>
+              <div class="h6 text-secondary">Nov 12</div>
+              <div class="card-text text-secondary">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo,
+                perferendis?
+              </div>
+            <p  class="mt-4" ><a href="">Continue Reading</a></p> 
+            </div>
+            <div class="col-md-6">
+              <img src="./teaclass.jpg" class="card-img" />
+            </div>
+          </div>
+        </div>
+        <div class="newCard card mt-2 mx-2">
+          <div class="row no-gutters">
+            <div class="card-body col-md-6  p-3">
+              <a href="#world" class="card-link text-success">Design</a>
+              <div class="card-title h2">Post Title</div>
+              <div class="h6 text-secondary">Nov 12</div>
+              <div class="card-text text-secondary">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo,
+                perferendis?
+              </div>
+                <p class="mt-4"><a href="">Continue Reading</a></p>
+            </div>
+            <div class="col-md-6">
+              <img src="./wasateainterview.jpg" class="card-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- main content -->
+      <div class="row justify-content-between m-1 mt-5">
+        <div class="col-7 ">
+          <h2>From the Firehouse</h2>
+          <h1 class="mainContent p-3">Sample blog post</h1>
+          <div class="h6 text-secondary mt-3 ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+            obcaecati deleniti eveniet quidem animi doloremque ducimus molestias
+            consectetur culpa. Illum consequatur, ut facilis voluptatum
+            perferendis libero rem et, iusto suscipit rerum deleniti assumenda
+            dolore cumque blanditiis possimus. Corrupti velit magni corporis.
+            Excepturi deleniti recusandae ad, eius eum porro nostrum id.
+            <br /><br /><br />
+            Lorem ipsum <a class="font-weight-bold">dolor sit amet consectetur adipisicing elit. Eos,
+            obcaecati deleniti</a> eveniet quidem animi doloremque ducimus molestias
+            consectetur culpa. Illum consequatur, <a class="font-italic font-weight-bold text-info">ut facilis voluptatum
+            perferendis libero rem et, iusto suscipit rerum deleniti assumenda</a> 
+            dolore cumque blanditiis possimus. Corrupti velit magni corporis.
+            Excepturi deleniti recusandae ad, eius eum porro nostrum id.
+            <br /><br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+            obcaecati deleniti eveniet quidem animi doloremque ducimus molestias
+            consectetur culpa. Illum consequatur, ut facilis voluptatum
+            perferendis libero rem et, iusto suscipit rerum deleniti assumenda
+            dolore cumque blanditiis possimus. Corrupti velit magni corporis.
+            Excepturi deleniti recusandae ad, eius eum porro nostrum id.
+          </div>
+          <div>
+            <h1 class="text-darks  mt-5">Heading</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+            obcaecati deleniti eveniet quidem animi doloremque ducimus molestias
+            consectetur culpa. Illum consequatur, ut facilis voluptatum
+            perferendis libero rem et, iusto suscipit rerum deleniti assumenda
+          </div>
+          <div>
+            <h3 class="text-darks mt-3">Sub-Heading</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+            obcaecati deleniti eveniet quidem animi doloremque ducimus molestias
+            consectetur culpa. Illum consequatur, ut facilis voluptatum
+            perferendis libero rem et, iusto suscipit rerum deleniti assumenda
+          </div>
+          <div>
+            <h3 class="text-darks mt-3">Sub-Heading</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+            obcaecati deleniti eveniet quidem animi doloremque ducimus molestias
+            consectetur culpa. 
+            <ul>
+                <li>Lorem ipsum dlior sit.</li>
+                <li>Lorem ipsum dlior sit.</li>
+                <li>Lorem ipsum dlior sit.</li>
+                <li>Lorem ipsum dlior sit.</li>
+                <li>Lorem ipsum dlior sit.</li>
+                <li>Lorem ipsum dlior sit.</li>
+                <li>Lorem ipsum dlior sit.</li>
+            </ul>
+                        consectetur culpa. Illum consequatur, ut facilis voluptatum
+                        perferendis libero rem et, iusto suscipit rerum deleniti assumenda
+                        dolore cumque blanditiis possimus. Corrupti velit magni corporis.
+
+          </div>
+        <div>
+            <h1 class="text-darks mt-5">Another Blog Post</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+            obcaecati deleniti eveniet quidem animi doloremque ducimus molestias
+            consectetur culpa. Illum consequatur, ut facilis voluptatum
+            perferendis libero rem et, iusto suscipit rerum deleniti assumenda
+            <br><br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+                        obcaecati deleniti eveniet quidem animi doloremque ducimus molestias
+                        consectetur culpa. Illum consequatur, ut facilis voluptatum
+                        perferendis libero rem et, iusto suscipit rerum deleniti assumenda
+            <br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+            obcaecati deleniti eveniet quidem animi doloremque ducimus molestias
+            consectetur culpa. Illum consequatur, ut facilis voluptatum
+            perferendis libero rem et, iusto suscipit rerum deleniti assumenda
+
+        </div>
+
+        <div>
+            <h1 class="text-darks mt-5">New Futures</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+            obcaecati deleniti eveniet quidem animi doloremque ducimus molestias
+            consectetur culpa.
+            <ul>
+                <li>Lorem ipsum dlior sit.</li>
+                <li>Lorem ipsum dlior sit.</li>
+                <li>Lorem ipsum dlior sit.</li>
+            </ul>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+                        obcaecati deleniti eveniet quidem animi doloremque ducimus molestias
+                        consectetur culpa.
+            <ol>
+                <li>Lorem ipsum dlior sit.</li>
+                <li>Lorem ipsum dlior sit.</li>
+                <li>Lorem ipsum dlior sit.</li>
+            </ol>
+            consectetur culpa. Illum consequatur, ut facilis voluptatum
+            perferendis libero rem et, iusto suscipit rerum deleniti assumenda
+            dolore cumque blanditiis possimus. Corrupti velit magni corporis.
+
+        </div>
+
+        </div>
+
+        <!-- about part -->
+        <div class="about  d-block col-3 text-black mt-3 p-4">
+            <section>
+          <h3>About</h3>
+          <div class="text-secondary">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
+            dolores expedita velit tenetur reiciendis voluptate quaerat eveniet.
+            Rem, aperiam saepe.
+          </div>
+        </section>
+
+        <section class="archives mt-5">
+            <h3>Archives</h3>
+            <div class=" text-primary ">
+          <a href="">March 2014</a> <br>
+          <a href="">February 2014</a> <br>
+          <a href="">January 2014</a> <br>
+          <a href="">May 2014</a> <br>
+          <a href="">April 2014</a> <br>
+          <a href="">September 2014</a> <br>
+          <a href="">Agust 2014</a> <br>
+          <a href="">July 2014</a> <br>
+          <a href="">June 2014</a> <br>
+          <a href="">March 2014</a> <br>
+        </div>
+    </section>
+
+            <section class="elsewhere mt-5">
+                <h3>Eleswhere</h3>
+                <div class=" text-primary ">
+                    <a href="">Github</a> <br>
+                    <a href="">Twitter</a> <br>
+                    <a href="">Facebook</a> <br>
+                </div>
+                </div>
+            </section>
+            </div>
+<div class="row">
+<button class="btn btn-outline-info btn-lg rounded-pill">Older</button>
+<button class="btn btn-outline-secondary btn-lg rounded-pill">Newer</button>
+
+</div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

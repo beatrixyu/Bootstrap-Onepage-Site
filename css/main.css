@@ -1,0 +1,34 @@
+body {
+  width: 100%;
+}
+body header {
+  width: 100%;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+body header .signButton {
+  height: 50px;
+}
+body header i {
+  font-size: 25px;
+}
+body .mainPic {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+body .newCard {
+  width: 48%;
+}
+body .newCard img {
+  height: 250px;
+}
+body .mainContent {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+body .about {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 200px;
+}
+body .about .archives {
+  height: 300px;
+}
+
+/*# sourceMappingURL=main.css.map */

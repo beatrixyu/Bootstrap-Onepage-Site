@@ -1,0 +1,32 @@
+body {
+  width: 100%;
+  header {
+    width: 100%;
+    border-bottom: 1px solid rgb(128, 128, 128, 0.2);
+    .signButton {
+      height: 50px;
+    }
+    i {
+      font-size: 25px;
+    }
+  }
+  .mainPic {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .newCard {
+    width: 48%;
+    img {
+      height: 250px;
+    }
+  }
+  .mainContent {
+    border-bottom: 1px solid rgb(128, 128, 128, 0.2);
+  }
+  .about {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 200px;
+    .archives {
+      height: 300px;
+    }
+  }
+}
